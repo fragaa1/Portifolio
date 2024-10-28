@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0%;
+    height: 3300px;
+}
+
+header
+{ 
+    position: sticky;
+    top: 0;
+    box-shadow: 0 1px 3px black;
+}
+
+.header 
+{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+}
+
+.txt {
+    width: 70px;
+    height: 70px;
+    color: rgb(61, 61, 61);
+    align-content: center;
+    padding: 50px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    font-size: 24px;
+    margin-right: 70px;
+}
+
+.tx {
+    width: 70px;
+    height: 70px;
+    color: rgb(0, 173, 29);
+    align-content: center;
+    padding: 50px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    font-size: 34px;
+    margin-right: 70px;
+}
+
+.home {
+    width: 100%;
+    height: 893px;
+    background-color: #f7f7f7;
+}
+
+.me{
+    color: #105200;
+    font-size: 48px;
+}
+
+.ct{
+    font-size: 20.8px;
+    padding-left: 5px;
+    padding-top: 3px    ;
+}
+
+.bt{
+    display: flex;
+    width: 180px;
+    height: 46px;
+    background-color: #105200;
+    border-radius: 21px;
+    align-items: center;
+    color: white;
+    font-size: 22.5px;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 270px;
+}
+
+.titulo {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 280px;
+    padding-left: 360px;
+}
+
+.Servicos
+{
+    display: flex;
+    width: 100%;
+    height: 893px;
+    justify-content: center;
+}
+
+.ms
+{
+    display: flex;
+    padding-top: 100px;
+    justify-content: center;
+}
+
+.s
+{
+    justify-content: space-evenly;
+    display: flex;
+    margin-top: 100px;
+    margin-right: 230px;
+}
+
+.s2{
+ display: flex;
+ justify-content: space-evenly;
+ margin-top:150px;
+ margin-right: 230px;
+}
+
+.uid
+{
+    display: flex;
+}
+
+.ld
+{
+    display: flex;
+}
+
+.wb
+{
+    display: flex;
+}
+
+.wds
+{
+    display: flex;
+}
+
+.ts
+{
+    padding-top: 20px;
+    font-size: 20px;
+    padding-left: 3px;
+}
+
+.tss{
+    display: flex;
+    
+}
+
+.uidt
+{
+    margin-left: 500px;
+    font-size: 18px;
+    color: #939393;
+}
+
+.ldt
+{
+ margin-left: 285px;
+ font-size: 18px;
+    color: #939393;
+}
+
+.wbt{
+    margin-left: 500px;
+    font-size: 18px;
+    color: #939393;
+}
+
+.wdst{
+    margin-left: 270px;
+    font-size: 18px;
+    color: #939393;
+}
+
+.mst {
+    height: 900px;
+}
+
+
+.container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+.sobre-mim {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.sobre-mim-texto {
+    width: 45%;
+    text-align: justify;
+    color: #666;
+}
+
+.portfolio {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+    
+}
+.portfolio-item {
+    width: 30%;
+    height: 200px;
+    background-color: #eee;
+    margin: 2px;
+}
+.contato {
+    text-align: center;
+    margin-top: 50px;
+}
+.contato input, .contato textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+}
+.contato button {
+    background-color: #3A6E2A;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+.contato button:hover {
+    background-color: #2E5B20;
+}
+.tt{
+    color: green;
+    margin: 10px;
+}
+
+.dd {
+    margin-top: 150px;
+}
